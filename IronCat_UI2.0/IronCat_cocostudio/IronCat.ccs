@@ -1,0 +1,1108 @@
+<Solution>
+  <PropertyGroup Name="IronCat" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="animation">
+          <Folder Name="cs2_Animation">
+            <ExportJsonFile Name="cs2_Animation.ExportJson" />
+          </Folder>
+          <Folder Name="csm_Animation">
+            <ExportJsonFile Name="csm_Animation.ExportJson" />
+          </Folder>
+          <Folder Name="cw001">
+            <ExportJsonFile Name="cw001.ExportJson" />
+          </Folder>
+          <Folder Name="cw002">
+            <ExportJsonFile Name="cw002.ExportJson" />
+          </Folder>
+          <Folder Name="cw003">
+            <ExportJsonFile Name="cw003.ExportJson" />
+          </Folder>
+          <Folder Name="cw1zs_Animation">
+            <ExportJsonFile Name="cw1zs_Animation.ExportJson" />
+          </Folder>
+          <Folder Name="cw2zs_Animation">
+            <ExportJsonFile Name="cw2zs_Animation.ExportJson" />
+          </Folder>
+          <Folder Name="cw3zs_Animation">
+            <ExportJsonFile Name="cw3zs_Animation.ExportJson" />
+          </Folder>
+          <Folder Name="cwbj_Animation">
+            <ExportJsonFile Name="cwbj_Animation.ExportJson" />
+          </Folder>
+          <Folder Name="fengli_effect">
+            <ExportJsonFile Name="fengli_effect.ExportJson" />
+          </Folder>
+          <Folder Name="haiyang_effect">
+            <ExportJsonFile Name="haiyang_effect.ExportJson" />
+          </Folder>
+          <Folder Name="juedi_effect">
+            <ExportJsonFile Name="juedi_effect.ExportJson" />
+          </Folder>
+          <Folder Name="maoPF1_Animation">
+            <ExportJsonFile Name="maoPF1_Animation.ExportJson" />
+          </Folder>
+          <Folder Name="maoPF2_Animation">
+            <ExportJsonFile Name="maoPF2_Animation.ExportJson" />
+          </Folder>
+          <Folder Name="maoPF3_Animation">
+            <ExportJsonFile Name="maoPF3_Animation.ExportJson" />
+          </Folder>
+          <Folder Name="niunai_effect">
+            <ExportJsonFile Name="niunai_effect.ExportJson" />
+          </Folder>
+          <Folder Name="wansheng_effect">
+            <ExportJsonFile Name="wansheng_effect.ExportJson" />
+          </Folder>
+          <Folder Name="weapon_Animation">
+            <ExportJsonFile Name="weapon_Animation.ExportJson" />
+          </Folder>
+          <Folder Name="zdy2_Animation">
+            <ExportJsonFile Name="zdy2_Animation.ExportJson" />
+          </Folder>
+          <Folder Name="zy_Animation">
+            <ExportJsonFile Name="zy_Animation.ExportJson" />
+          </Folder>
+        </Folder>
+        <Folder Name="cbcsb">
+          <Project Name="achievementBar.csd" Type="Layer" />
+          <Project Name="achievementLayer.csd" Type="Layer" />
+          <Project Name="CatFragmentAddDialog.csd" Type="Node" />
+          <Project Name="CatHomeLayer.csd" Type="Layer" />
+          <Project Name="DuplicateChoiceScene.csd" Type="Scene" />
+          <Project Name="GameMainScene.csd" Type="Scene" />
+          <Project Name="GiftBag.csd" Type="Layer" />
+          <Project Name="LoginLayer.csd" Type="Layer" />
+          <Project Name="PetLayer.csd" Type="Layer" />
+          <Project Name="PromptLayer.csd" Type="Layer" />
+          <Project Name="ResourceShow.csd" Type="Layer" />
+          <Project Name="roleUpDialog.csd" Type="Layer" />
+          <Project Name="SecondSureLayer.csd" Type="Layer" />
+          <Project Name="setingLayer.csd" Type="Scene" />
+          <Project Name="shareBar.csd" Type="Node" />
+          <Project Name="SignItem.csd" Type="Layer" />
+          <Project Name="SignLayer.csd" Type="Layer" />
+          <Project Name="StoreLayer.csd" Type="Scene" />
+          <Project Name="TollgateInfoLayer.csd" Type="Layer" />
+          <Project Name="WaitDialog.csd" Type="Layer" />
+          <Project Name="WeaponLayer.csd" Type="Layer" />
+          <Project Name="WeaponUpgradeLayer.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="cbcsb.2">
+          <Project Name="CatHomeLayer.csd" Type="Layer" />
+          <Project Name="PetLayer.csd" Type="Layer" />
+          <Project Name="shareBar.csd" Type="Layer" />
+          <Project Name="SignItem.csd" Type="Node" />
+          <Project Name="SignLayer.csd" Type="Layer" />
+          <Project Name="StoreLayer.csd" Type="Scene" />
+          <Project Name="WeaponLayer.csd" Type="Layer" />
+          <Project Name="WeaponListNode.csd" Type="Node" />
+          <Project Name="WeaponUpgradeLayer.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="cwbj_Animation">
+          <ExportJsonFile Name="cwbj_Animation.ExportJson" />
+        </Folder>
+        <Folder Name="dialog">
+          <Image Name="buttonCancle.png" />
+          <Image Name="buttonOk.png" />
+          <Image Name="buttonSureExit.png" />
+          <Image Name="dialogBack.png" />
+          <Image Name="iconCat.png" />
+          <Image Name="iconCatUp.png" />
+          <Image Name="iconFlake1.png" />
+          <Image Name="iconFlake2.png" />
+          <Image Name="iconMint.png" />
+          <Image Name="iconVial.png" />
+          <Image Name="returnButton.png" />
+          <Image Name="upRow.png" />
+        </Folder>
+        <Folder Name="english">
+          <Folder Name="cbcsb">
+            <Project Name="CatFragmentAddDialog.csd" Type="Node" />
+            <Project Name="WeaponUpgradeLayer.csd" Type="Layer" />
+          </Folder>
+        </Folder>
+        <Folder Name="fnts">
+          <Fnt Name="fnt.fnt" />
+        </Folder>
+        <Folder Name="game">
+          <Folder Name="animation">
+            <Folder Name="bomb">
+              <ExportJsonFile Name="1_baozha_Animation.ExportJson" />
+            </Folder>
+            <Folder Name="bosscoming">
+              <Image Name="effect_bosscoming_bg1.png" />
+              <Image Name="effect_bosscoming_bg2.png" />
+              <Image Name="effect_bosscoming_title.png" />
+            </Folder>
+            <Folder Name="combo">
+              <Image Name="combo_icon.png" />
+              <Image Name="combo_label.png" />
+            </Folder>
+            <Folder Name="failcat_Animation">
+              <Image Name="single_monster_head.png" />
+            </Folder>
+            <Folder Name="frozen">
+              <ExportJsonFile Name="2_bingdon_Animation.ExportJson" />
+            </Folder>
+            <Folder Name="gamefight">
+              <Image Name="game_barrier_fog.png" />
+              <Image Name="game_progress_bar.png" />
+              <Image Name="game_progress_bar_time.png" />
+              <Image Name="game_progress_bg.png" />
+              <Image Name="game_progress_cursor.png" />
+              <Image Name="game_progress_cursor_time.png" />
+              <Image Name="game_restalert_1.png" />
+              <Image Name="game_restalert_2.png" />
+              <Image Name="game_restalert_3.png" />
+              <Image Name="game_restalert_circle.png" />
+              <Image Name="game_restalert_final.png" />
+            </Folder>
+            <Folder Name="general">
+              <Image Name="pet_spit.png" />
+            </Folder>
+            <Folder Name="MonsterDead">
+              <ExportJsonFile Name="monsterDead.ExportJson" />
+            </Folder>
+            <Folder Name="shield">
+              <ExportJsonFile Name="3_huzhao_Animation.ExportJson" />
+              <Image Name="boss_shield_1.png" />
+              <Image Name="boss_shield_2.png" />
+              <Image Name="boss_shield_buttom.png" />
+            </Folder>
+            <Folder Name="warnring">
+              <Image Name="effect_bulletsframe_warning.png" />
+              <Image Name="effect_herohp_warning_frame.png" />
+              <Image Name="effect_herohp_warning_label.png" />
+              <Image Name="effect_herohp_warning_screen.png" />
+              <Image Name="warning_icon.png" />
+            </Folder>
+          </Folder>
+          <Folder Name="animpacker">
+            <PlistImageFolder Image="bullet_boom.png" PListFile="bullet_boom.plist" Name=".bullet_boom_PList.Dir">
+              <PlistImageFile Name="bullet_boom_0001.png" Key="bullet_boom_0001.png" />
+              <PlistImageFile Name="bullet_boom_0002.png" Key="bullet_boom_0002.png" />
+              <PlistImageFile Name="bullet_boom_0003.png" Key="bullet_boom_0003.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="bullet_collision.png" PListFile="bullet_collision.plist" Name=".bullet_collision_PList.Dir">
+              <PlistImageFile Name="bullet_collision_0001.png" Key="bullet_collision_0001.png" />
+              <PlistImageFile Name="bullet_collision_0002.png" Key="bullet_collision_0002.png" />
+              <PlistImageFile Name="bullet_collision_0003.png" Key="bullet_collision_0003.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="bullet_electronic.png" PListFile="bullet_electronic.plist" Name=".bullet_electronic_PList.Dir">
+              <PlistImageFile Name="bullet_electronic_000.png" Key="bullet_electronic_000.png" />
+              <PlistImageFile Name="bullet_electronic_001.png" Key="bullet_electronic_001.png" />
+              <PlistImageFile Name="bullet_electronic_002.png" Key="bullet_electronic_002.png" />
+              <PlistImageFile Name="bullet_electronic_003.png" Key="bullet_electronic_003.png" />
+              <PlistImageFile Name="bullet_electronic_004.png" Key="bullet_electronic_004.png" />
+              <PlistImageFile Name="bullet_electronic_005.png" Key="bullet_electronic_005.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="eff_bonus_1.png" PListFile="eff_bonus_1.plist" Name=".eff_bonus_1_PList.Dir">
+              <PlistImageFile Name="bonus_1_000.png" Key="bonus_1_000.png" />
+              <PlistImageFile Name="bonus_1_001.png" Key="bonus_1_001.png" />
+              <PlistImageFile Name="bonus_1_002.png" Key="bonus_1_002.png" />
+              <PlistImageFile Name="bonus_1_003.png" Key="bonus_1_003.png" />
+              <PlistImageFile Name="bonus_1_004.png" Key="bonus_1_004.png" />
+              <PlistImageFile Name="bonus_1_005.png" Key="bonus_1_005.png" />
+              <PlistImageFile Name="bonus_1_006.png" Key="bonus_1_006.png" />
+              <PlistImageFile Name="bonus_1_007.png" Key="bonus_1_007.png" />
+              <PlistImageFile Name="bonus_1_008.png" Key="bonus_1_008.png" />
+              <PlistImageFile Name="bonus_1_009.png" Key="bonus_1_009.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="eff_bonus_2.png" PListFile="eff_bonus_2.plist" Name=".eff_bonus_2_PList.Dir">
+              <PlistImageFile Name="bonus_2_000.png" Key="bonus_2_000.png" />
+              <PlistImageFile Name="bonus_2_001.png" Key="bonus_2_001.png" />
+              <PlistImageFile Name="bonus_2_002.png" Key="bonus_2_002.png" />
+              <PlistImageFile Name="bonus_2_003.png" Key="bonus_2_003.png" />
+              <PlistImageFile Name="bonus_2_004.png" Key="bonus_2_004.png" />
+              <PlistImageFile Name="bonus_2_005.png" Key="bonus_2_005.png" />
+              <PlistImageFile Name="bonus_2_006.png" Key="bonus_2_006.png" />
+              <PlistImageFile Name="bonus_2_007.png" Key="bonus_2_007.png" />
+              <PlistImageFile Name="bonus_2_008.png" Key="bonus_2_008.png" />
+              <PlistImageFile Name="bonus_2_009.png" Key="bonus_2_009.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="eff_bonus_3.png" PListFile="eff_bonus_3.plist" Name=".eff_bonus_3_PList.Dir">
+              <PlistImageFile Name="bonus_3_000.png" Key="bonus_3_000.png" />
+              <PlistImageFile Name="bonus_3_001.png" Key="bonus_3_001.png" />
+              <PlistImageFile Name="bonus_3_002.png" Key="bonus_3_002.png" />
+              <PlistImageFile Name="bonus_3_003.png" Key="bonus_3_003.png" />
+              <PlistImageFile Name="bonus_3_004.png" Key="bonus_3_004.png" />
+              <PlistImageFile Name="bonus_3_005.png" Key="bonus_3_005.png" />
+              <PlistImageFile Name="bonus_3_006.png" Key="bonus_3_006.png" />
+              <PlistImageFile Name="bonus_3_007.png" Key="bonus_3_007.png" />
+              <PlistImageFile Name="bonus_3_008.png" Key="bonus_3_008.png" />
+              <PlistImageFile Name="bonus_3_009.png" Key="bonus_3_009.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="eff_bonus_4.png" PListFile="eff_bonus_4.plist" Name=".eff_bonus_4_PList.Dir">
+              <PlistImageFile Name="bonus_4_000.png" Key="bonus_4_000.png" />
+              <PlistImageFile Name="bonus_4_001.png" Key="bonus_4_001.png" />
+              <PlistImageFile Name="bonus_4_002.png" Key="bonus_4_002.png" />
+              <PlistImageFile Name="bonus_4_003.png" Key="bonus_4_003.png" />
+              <PlistImageFile Name="bonus_4_004.png" Key="bonus_4_004.png" />
+              <PlistImageFile Name="bonus_4_005.png" Key="bonus_4_005.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="eff_bonus_7.png" PListFile="eff_bonus_7.plist" Name=".eff_bonus_7_PList.Dir">
+              <PlistImageFile Name="bonus_7_001.png" Key="bonus_7_001.png" />
+              <PlistImageFile Name="bonus_7_002.png" Key="bonus_7_002.png" />
+              <PlistImageFile Name="bonus_7_003.png" Key="bonus_7_003.png" />
+              <PlistImageFile Name="bonus_7_004.png" Key="bonus_7_004.png" />
+              <PlistImageFile Name="bonus_7_005.png" Key="bonus_7_005.png" />
+              <PlistImageFile Name="bonus_7_006.png" Key="bonus_7_006.png" />
+              <PlistImageFile Name="bonus_7_007.png" Key="bonus_7_007.png" />
+              <PlistImageFile Name="bonus_7_008.png" Key="bonus_7_008.png" />
+              <PlistImageFile Name="bonus_7_009.png" Key="bonus_7_009.png" />
+              <PlistImageFile Name="bonus_7_010.png" Key="bonus_7_010.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="eff_bonus_8.png" PListFile="eff_bonus_8.plist" Name=".eff_bonus_8_PList.Dir">
+              <PlistImageFile Name="bonus_8_001.png" Key="bonus_8_001.png" />
+              <PlistImageFile Name="bonus_8_002.png" Key="bonus_8_002.png" />
+              <PlistImageFile Name="bonus_8_003.png" Key="bonus_8_003.png" />
+              <PlistImageFile Name="bonus_8_004.png" Key="bonus_8_004.png" />
+              <PlistImageFile Name="bonus_8_005.png" Key="bonus_8_005.png" />
+              <PlistImageFile Name="bonus_8_006.png" Key="bonus_8_006.png" />
+              <PlistImageFile Name="bonus_8_007.png" Key="bonus_8_007.png" />
+              <PlistImageFile Name="bonus_8_008.png" Key="bonus_8_008.png" />
+              <PlistImageFile Name="bonus_8_009.png" Key="bonus_8_009.png" />
+              <PlistImageFile Name="bonus_8_010.png" Key="bonus_8_010.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="eff_ghost.png" PListFile="eff_ghost.plist" Name=".eff_ghost_PList.Dir">
+              <PlistImageFile Name="eff_ghost_001.png" Key="eff_ghost_001.png" />
+              <PlistImageFile Name="eff_ghost_002.png" Key="eff_ghost_002.png" />
+              <PlistImageFile Name="eff_ghost_003.png" Key="eff_ghost_003.png" />
+              <PlistImageFile Name="eff_ghost_004.png" Key="eff_ghost_004.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="eff_meteorite_boom.png" PListFile="eff_meteorite_boom.plist" Name=".eff_meteorite_boom_PList.Dir">
+              <PlistImageFile Name="eff_meteorite_boom_001.png" Key="eff_meteorite_boom_001.png" />
+              <PlistImageFile Name="eff_meteorite_boom_002.png" Key="eff_meteorite_boom_002.png" />
+              <PlistImageFile Name="eff_meteorite_boom_003.png" Key="eff_meteorite_boom_003.png" />
+              <PlistImageFile Name="eff_meteorite_boom_004.png" Key="eff_meteorite_boom_004.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="eff_torpedo_bomb.png" PListFile="eff_torpedo_bomb.plist" Name=".eff_torpedo_bomb_PList.Dir">
+              <PlistImageFile Name="eff_torpedo_bomb_0001.png" Key="eff_torpedo_bomb_0001.png" />
+              <PlistImageFile Name="eff_torpedo_bomb_0002.png" Key="eff_torpedo_bomb_0002.png" />
+              <PlistImageFile Name="eff_torpedo_bomb_0003.png" Key="eff_torpedo_bomb_0003.png" />
+              <PlistImageFile Name="eff_torpedo_bomb_0004.png" Key="eff_torpedo_bomb_0004.png" />
+              <PlistImageFile Name="eff_torpedo_bomb_0005.png" Key="eff_torpedo_bomb_0005.png" />
+              <PlistImageFile Name="eff_torpedo_bomb_0006.png" Key="eff_torpedo_bomb_0006.png" />
+              <PlistImageFile Name="eff_torpedo_bomb_0007.png" Key="eff_torpedo_bomb_0007.png" />
+              <PlistImageFile Name="eff_torpedo_bomb_0008.png" Key="eff_torpedo_bomb_0008.png" />
+              <PlistImageFile Name="eff_torpedo_bomb_0009.png" Key="eff_torpedo_bomb_0009.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="effect_bossdead.png" PListFile="effect_bossdead.plist" Name=".effect_bossdead_PList.Dir">
+              <PlistImageFile Name="effect_bossdead_0001.png" Key="effect_bossdead_0001.png" />
+              <PlistImageFile Name="effect_bossdead_0002.png" Key="effect_bossdead_0002.png" />
+              <PlistImageFile Name="effect_bossdead_0003.png" Key="effect_bossdead_0003.png" />
+              <PlistImageFile Name="effect_bossdead_0004.png" Key="effect_bossdead_0004.png" />
+              <PlistImageFile Name="effect_bossdead_0005.png" Key="effect_bossdead_0005.png" />
+              <PlistImageFile Name="effect_bossdead_0006.png" Key="effect_bossdead_0006.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="effect_bubble.png" PListFile="effect_bubble.plist" Name=".effect_bubble_PList.Dir">
+              <PlistImageFile Name="effect_bubble_0001.png" Key="effect_bubble_0001.png" />
+              <PlistImageFile Name="effect_bubble_0002.png" Key="effect_bubble_0002.png" />
+              <PlistImageFile Name="effect_bubble_0003.png" Key="effect_bubble_0003.png" />
+              <PlistImageFile Name="effect_bubble_0004.png" Key="effect_bubble_0004.png" />
+              <PlistImageFile Name="effect_bubble_0005.png" Key="effect_bubble_0005.png" />
+              <PlistImageFile Name="effect_bubble_0006.png" Key="effect_bubble_0006.png" />
+              <PlistImageFile Name="effect_bubble_0007.png" Key="effect_bubble_0007.png" />
+              <PlistImageFile Name="effect_bubble_0008.png" Key="effect_bubble_0008.png" />
+              <PlistImageFile Name="effect_bubble_0009.png" Key="effect_bubble_0009.png" />
+              <PlistImageFile Name="effect_bubble_0010.png" Key="effect_bubble_0010.png" />
+              <PlistImageFile Name="effect_bubble_0011.png" Key="effect_bubble_0011.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="effect_electronic.png" PListFile="effect_electronic.plist" Name=".effect_electronic_PList.Dir">
+              <PlistImageFile Name="effect_electronic_big_001.png" Key="effect_electronic_big_001.png" />
+              <PlistImageFile Name="effect_electronic_big_002.png" Key="effect_electronic_big_002.png" />
+              <PlistImageFile Name="effect_electronic_big_003.png" Key="effect_electronic_big_003.png" />
+              <PlistImageFile Name="effect_electronic_big_004.png" Key="effect_electronic_big_004.png" />
+              <PlistImageFile Name="effect_electronic_big_005.png" Key="effect_electronic_big_005.png" />
+              <PlistImageFile Name="effect_electronic_big_006.png" Key="effect_electronic_big_006.png" />
+              <PlistImageFile Name="effect_electronic_small_001.png" Key="effect_electronic_small_001.png" />
+              <PlistImageFile Name="effect_electronic_small_002.png" Key="effect_electronic_small_002.png" />
+              <PlistImageFile Name="effect_electronic_small_003.png" Key="effect_electronic_small_003.png" />
+              <PlistImageFile Name="effect_electronic_small_004.png" Key="effect_electronic_small_004.png" />
+              <PlistImageFile Name="effect_electronic_small_005.png" Key="effect_electronic_small_005.png" />
+              <PlistImageFile Name="effect_electronic_small_006.png" Key="effect_electronic_small_006.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="effect_ice_piece.png" PListFile="effect_ice_piece.plist" Name=".effect_ice_piece_PList.Dir">
+              <PlistImageFile Name="big_ice_full.png" Key="big_ice_full.png" />
+              <PlistImageFile Name="big_ice_full_state_001.png" Key="big_ice_full_state_001.png" />
+              <PlistImageFile Name="big_ice_full_state_002.png" Key="big_ice_full_state_002.png" />
+              <PlistImageFile Name="big_ice_full_state_003.png" Key="big_ice_full_state_003.png" />
+              <PlistImageFile Name="big_ice_full_state_004.png" Key="big_ice_full_state_004.png" />
+              <PlistImageFile Name="small_ice_full.png" Key="small_ice_full.png" />
+              <PlistImageFile Name="small_ice_full_state_001.png" Key="small_ice_full_state_001.png" />
+              <PlistImageFile Name="small_ice_full_state_002.png" Key="small_ice_full_state_002.png" />
+              <PlistImageFile Name="small_ice_full_state_003.png" Key="small_ice_full_state_003.png" />
+              <PlistImageFile Name="small_ice_full_state_004.png" Key="small_ice_full_state_004.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="effect_lighting.png" PListFile="effect_lighting.plist" Name=".effect_lighting_PList.Dir">
+              <PlistImageFile Name="effect_lighting_0001.png" Key="effect_lighting_0001.png" />
+              <PlistImageFile Name="effect_lighting_0002.png" Key="effect_lighting_0002.png" />
+              <PlistImageFile Name="effect_lighting_0003.png" Key="effect_lighting_0003.png" />
+              <PlistImageFile Name="effect_lighting_0004.png" Key="effect_lighting_0004.png" />
+              <PlistImageFile Name="effect_lighting_0005.png" Key="effect_lighting_0005.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="laser_effect.png" PListFile="laser_effect.plist" Name=".laser_effect_PList.Dir">
+              <PlistImageFile Name="jg0001.png" Key="jg0001.png" />
+              <PlistImageFile Name="jg0002.png" Key="jg0002.png" />
+              <PlistImageFile Name="jg0003.png" Key="jg0003.png" />
+              <PlistImageFile Name="jg0004.png" Key="jg0004.png" />
+              <PlistImageFile Name="jg0005.png" Key="jg0005.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="laser_hitted.png" PListFile="laser_hitted.plist" Name=".laser_hitted_PList.Dir">
+              <PlistImageFile Name="jg20001.png" Key="jg20001.png" />
+              <PlistImageFile Name="jg20002.png" Key="jg20002.png" />
+              <PlistImageFile Name="jg20003.png" Key="jg20003.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="laser_light.png" PListFile="laser_light.plist" Name=".laser_light_PList.Dir">
+              <PlistImageFile Name="jg10001.png" Key="jg10001.png" />
+              <PlistImageFile Name="jg10002.png" Key="jg10002.png" />
+              <PlistImageFile Name="jg10003.png" Key="jg10003.png" />
+              <PlistImageFile Name="jg10004.png" Key="jg10004.png" />
+              <PlistImageFile Name="jg10005.png" Key="jg10005.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="missile_boom.png" PListFile="missile_boom.plist" Name=".missile_boom_PList.Dir">
+              <PlistImageFile Name="missile_boom_0001.png" Key="missile_boom_0001.png" />
+              <PlistImageFile Name="missile_boom_0002.png" Key="missile_boom_0002.png" />
+              <PlistImageFile Name="missile_boom_0003.png" Key="missile_boom_0003.png" />
+              <PlistImageFile Name="missile_boom_0004.png" Key="missile_boom_0004.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="missile_effect.png" PListFile="missile_effect.plist" Name=".missile_effect_PList.Dir">
+              <PlistImageFile Name="missile_001.png" Key="missile_001.png" />
+              <PlistImageFile Name="missile_002.png" Key="missile_002.png" />
+              <PlistImageFile Name="missile_003.png" Key="missile_003.png" />
+              <PlistImageFile Name="missile_004.png" Key="missile_004.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="monster_dead_texture.png" PListFile="monster_dead_texture.plist" Name=".monster_dead_texture_PList.Dir">
+              <PlistImageFile Name="monster_dead_texture_0001.png" Key="monster_dead_texture_0001.png" />
+              <PlistImageFile Name="monster_dead_texture_0002.png" Key="monster_dead_texture_0002.png" />
+              <PlistImageFile Name="monster_dead_texture_0003.png" Key="monster_dead_texture_0003.png" />
+            </PlistImageFolder>
+            <File Name="bullet_boom.xml" />
+            <File Name="bullet_collision.xml" />
+            <File Name="bullet_electronic.xml" />
+            <File Name="eff_bonus_1.xml" />
+            <File Name="eff_bonus_2.xml" />
+            <File Name="eff_bonus_3.xml" />
+            <File Name="eff_bonus_4.xml" />
+            <File Name="eff_bonus_7.xml" />
+            <File Name="eff_bonus_8.xml" />
+            <File Name="eff_ghost.xml" />
+            <File Name="eff_meteorite_boom.xml" />
+            <File Name="eff_torpedo_bomb.xml" />
+            <File Name="effect_bossdead.xml" />
+            <File Name="effect_bubble.xml" />
+            <File Name="effect_electronic.xml" />
+            <File Name="effect_ice_piece.xml" />
+            <File Name="effect_lighting.xml" />
+            <File Name="laser_effect.xml" />
+            <File Name="laser_hitted.xml" />
+            <File Name="laser_light.xml" />
+            <File Name="missile_boom.xml" />
+            <File Name="missile_effect.xml" />
+            <File Name="monster_dead_texture.xml" />
+          </Folder>
+          <Folder Name="bonus">
+            <Image Name="bonus_1.png" />
+            <Image Name="bonus_2.png" />
+            <Image Name="bonus_3.png" />
+            <Image Name="bonus_4.png" />
+            <Image Name="bonus_5.png" />
+            <Image Name="bonus_7.png" />
+            <Image Name="bonus_8.png" />
+          </Folder>
+          <Folder Name="bullets">
+            <Image Name="boom.png" />
+            <Image Name="bullet_electronic.png" />
+            <Image Name="bulletBomb.png" />
+            <Image Name="bulletIce.png" />
+            <Image Name="bulletLaser.png" />
+            <Image Name="bulletNormal.png" />
+            <Image Name="bulletNormal_2.png" />
+            <Image Name="bulletNormal_3.png" />
+            <Image Name="bulletpet_1.png" />
+            <Image Name="bulletpet_2.png" />
+            <Image Name="monster_normal_1.png" />
+            <Image Name="monster_normal_2.png" />
+            <Image Name="torpedo_peannut.png" />
+            <Image Name="torpedo_rotary.png" />
+            <ExportJsonFile Name="zdy_Animation.ExportJson" />
+          </Folder>
+          <Folder Name="catSkin">
+            <Image Name="skin1.png" />
+          </Folder>
+          <Folder Name="general">
+            <Image Name="bullet_red.png" />
+            <Image Name="bulletblank_red.png" />
+            <Image Name="monster_bloodbar1.png" />
+          </Folder>
+          <Folder Name="guide">
+            <Image Name="aim_shot.png" />
+            <Image Name="Bubble_Dye_Blue.png" />
+            <Image Name="catClaw.png" />
+            <Image Name="chatDown.png" />
+            <Image Name="clickItem.png" />
+            <Fnt Name="doalogchat.fnt" />
+            <Image Name="finger.png" />
+            <Image Name="finger_effect1.png" />
+            <Image Name="finger_effect2.png" />
+            <Image Name="rolehead_1.png" />
+          </Folder>
+          <Folder Name="item">
+            <Image Name="item_1.png" />
+            <Image Name="item_2.png" />
+            <Image Name="item_3.png" />
+            <Image Name="item_4.png" />
+            <Image Name="shield.png" />
+          </Folder>
+          <Folder Name="loading">
+            <Image Name="loading_bg.png" />
+            <Image Name="loading_head_1_1.png" />
+            <Image Name="loading_head_1_2.png" />
+            <Image Name="loading_head_2_2.png" />
+            <Image Name="loading_head_3_2.png" />
+            <Image Name="loading_shadow.png" />
+            <Fnt Name="loadingfnt.fnt" />
+            <File Name="loadingfnt.txt" />
+          </Folder>
+          <Folder Name="monster">
+            <PlistImageFolder Image="monster_egg.png" PListFile="monster_egg.plist" Name=".monster_egg_PList.Dir">
+              <PlistImageFile Name="monster_egg_000.png" Key="monster_egg_000.png" />
+              <PlistImageFile Name="monster_egg_001.png" Key="monster_egg_001.png" />
+              <PlistImageFile Name="monster_egg_002.png" Key="monster_egg_002.png" />
+              <PlistImageFile Name="monster_egg_003.png" Key="monster_egg_003.png" />
+              <PlistImageFile Name="monster_egg_004.png" Key="monster_egg_004.png" />
+              <PlistImageFile Name="monster_egg_005.png" Key="monster_egg_005.png" />
+            </PlistImageFolder>
+            <ExportJsonFile Name="boss1_Animation.ExportJson" />
+            <ExportJsonFile Name="boss2_Animation.ExportJson" />
+            <ExportJsonFile Name="boss3_Animation.ExportJson" />
+            <ExportJsonFile Name="boss4_Animation.ExportJson" />
+            <ExportJsonFile Name="g1_Animation.ExportJson" />
+            <ExportJsonFile Name="g10_Animation.ExportJson" />
+            <ExportJsonFile Name="g11_Animation.ExportJson" />
+            <ExportJsonFile Name="g12_Animation.ExportJson" />
+            <ExportJsonFile Name="g13_Animation.ExportJson" />
+            <ExportJsonFile Name="g14_Animation.ExportJson" />
+            <ExportJsonFile Name="g15_Animation.ExportJson" />
+            <ExportJsonFile Name="g2_Animation.ExportJson" />
+            <ExportJsonFile Name="g3_Animation.ExportJson" />
+            <ExportJsonFile Name="g4_Animation.ExportJson" />
+            <ExportJsonFile Name="g5_Animation.ExportJson" />
+            <ExportJsonFile Name="g6_Animation.ExportJson" />
+            <ExportJsonFile Name="g7_Animation.ExportJson" />
+            <ExportJsonFile Name="g8_Animation.ExportJson" />
+            <ExportJsonFile Name="g9_Animation.ExportJson" />
+            <ExportJsonFile Name="gw1_Animation.ExportJson" />
+            <ExportJsonFile Name="gw2_Animation.ExportJson" />
+            <ExportJsonFile Name="gw3_Animation.ExportJson" />
+            <File Name="monster_egg.xml" />
+            <ExportJsonFile Name="rzm_Animation.ExportJson" />
+            <ExportJsonFile Name="rzm2_Animation.ExportJson" />
+            <ExportJsonFile Name="rzm3_Animation.ExportJson" />
+            <ExportJsonFile Name="xg01_Animation.ExportJson" />
+            <ExportJsonFile Name="xg02_Animation.ExportJson" />
+            <ExportJsonFile Name="xg03_Animation.ExportJson" />
+            <ExportJsonFile Name="yunshi_Animation.ExportJson" />
+          </Folder>
+          <Folder Name="particle">
+            <PlistParticleFile Name="xgsw002.plist" />
+            <PlistParticleFile Name="xgsw01.plist" />
+            <PlistParticleFile Name="xgswg002.plist" />
+          </Folder>
+          <Folder Name="pet">
+            <ExportJsonFile Name="cw1.ExportJson" />
+            <ExportJsonFile Name="cw2.ExportJson" />
+            <ExportJsonFile Name="cw3.ExportJson" />
+          </Folder>
+          <Folder Name="role">
+            <ExportJsonFile Name="gtx_Animation.ExportJson" />
+            <ExportJsonFile Name="m_Animation.ExportJson" />
+            <ExportJsonFile Name="mgdz_Animation.ExportJson" />
+            <Image Name="roleItem.png" />
+          </Folder>
+          <Folder Name="taskicon">
+            <Image Name="taskicon_condition_bullet.png" />
+            <Image Name="taskicon_dead.png" />
+          </Folder>
+          <Folder Name="weapon">
+            <Image Name="card.png" />
+            <Image Name="light.png" />
+            <Image Name="locked.png" />
+            <Image Name="model.png" />
+            <Image Name="weapon_1.png" />
+            <Image Name="weapon_11.png" />
+            <Image Name="weapon_2.png" />
+            <Image Name="weapon_4.png" />
+            <Image Name="weapon_6.png" />
+            <Image Name="weapon_7.png" />
+            <Image Name="weapon_8.png" />
+            <Image Name="weapon_9.png" />
+            <Image Name="weaponIcon_1.png" />
+            <Image Name="weaponIcon_10.png" />
+            <Image Name="weaponIcon_11.png" />
+            <Image Name="weaponIcon_2.png" />
+            <Image Name="weaponIcon_4.png" />
+            <Image Name="weaponIcon_6.png" />
+            <Image Name="weaponIcon_7.png" />
+            <Image Name="weaponIcon_8.png" />
+            <Image Name="weaponIcon_9.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="RankLayer">
+          <Image Name="rank_list_cursor.png" />
+          <Image Name="rank_list_line.png" />
+        </Folder>
+        <Folder Name="res">
+          <Folder Name="achievement">
+            <Image Name="achievementIcon0.png" />
+            <Image Name="achievementIcon1.png" />
+            <Image Name="achievementIcon2.png" />
+            <Image Name="achivementIcon.png" />
+            <Image Name="blank_common.png" />
+            <Image Name="get.png" />
+            <Image Name="line1.png" />
+            <Image Name="line2.png" />
+            <Image Name="star1.png" />
+            <Image Name="star2.png" />
+          </Folder>
+          <Folder Name="BeginScene">
+            <Image Name="begin_bg.png" />
+            <Image Name="begin_bt.png" />
+            <Image Name="set_bt.png" />
+          </Folder>
+          <Folder Name="CatHome">
+            <Image Name="blank1.png" />
+            <Image Name="catbox.png" />
+            <Image Name="catbox_small.png" />
+            <Image Name="catname1.png" />
+            <Image Name="catsketch.png" />
+            <Image Name="catsketch_small.png" />
+            <Image Name="choice.png" />
+            <Image Name="choiced.png" />
+            <Image Name="lock.png" />
+            <Image Name="skin1.png" />
+            <Image Name="skin2.png" />
+          </Folder>
+          <Folder Name="DuplicateChoiceScene">
+            <Image Name="ball.png" />
+            <Image Name="chuansong.png" />
+            <Image Name="fengli1.png" />
+            <Image Name="fengli2.png" />
+            <Image Name="fl1.png" />
+            <Image Name="fl2.png" />
+            <Image Name="haiyang1.png" />
+            <Image Name="haiyang2.png" />
+            <Image Name="hy1_1.png" />
+            <Image Name="hy1_2.png" />
+            <Image Name="hy2_1.png" />
+            <Image Name="hy2_2.png" />
+            <Image Name="jd1.png" />
+            <Image Name="jd2.png" />
+            <Image Name="juedi1.png" />
+            <Image Name="juedi2.png" />
+            <Image Name="location.png" />
+            <Image Name="locked.png" />
+            <Image Name="niunai1.png" />
+            <Image Name="niunai2.png" />
+            <Image Name="nn1.png" />
+            <Image Name="nn2.png" />
+            <Image Name="star1.png" />
+            <Image Name="star2.png" />
+            <Image Name="star3.png" />
+            <Image Name="unlocked.png" />
+            <Image Name="wansheng1.png" />
+            <Image Name="wansheng2.png" />
+            <Image Name="ws1_1.png" />
+            <Image Name="ws1_2.png" />
+            <Image Name="ws2_1.png" />
+            <Image Name="ws2_2.png" />
+            <Image Name="zhangyu_map1.png" />
+            <Image Name="zhangyu_map2.png" />
+          </Folder>
+          <Folder Name="GameMainScene">
+            <Image Name="btn_cj.png" />
+            <Image Name="btn_cw.png" />
+            <Image Name="btn_phb.png" />
+            <Image Name="btn_sp.png" />
+            <Image Name="caticon.png" />
+            <Image Name="circle_L.png" />
+            <Image Name="circle_s.png" />
+            <Image Name="fengche1.png" />
+            <Image Name="fengche2.png" />
+            <Image Name="fengli_star.png" />
+            <Image Name="fl_1.png" />
+            <Image Name="fl_2.png" />
+            <Image Name="fz_0000_4.png" />
+            <Image Name="fz_0001_3.png" />
+            <Image Name="fz_0002_2.png" />
+            <Image Name="fz_0003_1.png" />
+            <Image Name="haiyang_star.png" />
+            <Image Name="hand.png" />
+            <Image Name="hy_1.png" />
+            <Image Name="hy_2.png" />
+            <Image Name="jd_1.png" />
+            <Image Name="jd_2.png" />
+            <Image Name="juedi_star.png" />
+            <Image Name="level.png" />
+            <Image Name="lg3_0000_1.png" />
+            <Image Name="lg3_0000_2.png" />
+            <Image Name="line.png" />
+            <Image Name="lv_bar.png" />
+            <Image Name="lv_bg.png" />
+            <Image Name="main_bg1.png" />
+            <Image Name="main_bg2.png" />
+            <Image Name="main_bg3.png" />
+            <Image Name="main_bg4.png" />
+            <Image Name="miaowu.png" />
+            <Image Name="niunai_star.png" />
+            <Image Name="nn_1.png" />
+            <Image Name="nn_2.png" />
+            <Image Name="qiandao.png" />
+            <Image Name="Satellite1.png" />
+            <Image Name="Satellite2.png" />
+            <Image Name="Satellite3.png" />
+            <Image Name="Satellite4.png" />
+            <Image Name="Satellite5.png" />
+            <Image Name="shangdian.png" />
+            <Image Name="shezi.png" />
+            <Image Name="shop_bt.png" />
+            <Image Name="star.png" />
+            <Image Name="star_bg.png" />
+            <Image Name="top.png" />
+            <Image Name="top_bg.png" />
+            <Image Name="top_fish.png" />
+            <Image Name="top_gold.png" />
+            <Image Name="top_heart.png" />
+            <Image Name="ui_bg.png" />
+            <Image Name="wansheng_star.png" />
+            <Image Name="ws_1.png" />
+            <Image Name="ws_2.png" />
+            <Image Name="ws_3.png" />
+            <Image Name="wuqi.png" />
+          </Folder>
+          <Folder Name="GameOverLayer">
+            <Image Name="again.png" />
+            <Image Name="again_press.png" />
+            <Image Name="background.png" />
+            <Image Name="enter.png" />
+            <Image Name="next.png" />
+            <Image Name="next_press.png" />
+            <Image Name="pass.png" />
+            <Image Name="ranking.png" />
+            <Image Name="ranking_press.png" />
+            <Image Name="star.png" />
+            <Image Name="star1.png" />
+            <Image Name="start.png" />
+          </Folder>
+          <Folder Name="GamingLayer">
+            <Image Name="bottom.png" />
+            <Image Name="bottombar.png" />
+            <Image Name="bullet.png" />
+            <Image Name="bulletBar.png" />
+            <Image Name="bulletblank.png" />
+            <Image Name="check_1.png" />
+            <Image Name="check_2.png" />
+            <Image Name="check_3.png" />
+            <Image Name="check_s1.png" />
+            <Image Name="check_s2.png" />
+            <Image Name="check_s3.png" />
+            <Image Name="clip.png" />
+            <Image Name="coolDownBar.png" />
+            <Image Name="gunsicon.png" />
+            <Image Name="gunsicon1.png" />
+            <Image Name="hpBar.png" />
+            <Image Name="hpBarBg.png" />
+            <Image Name="hpBg.png" />
+            <Image Name="hpLabel.png" />
+            <Image Name="itemContainer.png" />
+            <Image Name="pase.png" />
+            <Image Name="s_weaponBg.png" />
+            <Image Name="selectContainer.png" />
+            <Image Name="weaponBg.png" />
+            <Image Name="weaponContainer.png" />
+          </Folder>
+          <Folder Name="General">
+            <Image Name="basic.png" />
+            <Image Name="basic_1.png" />
+            <Image Name="basic_2.png" />
+            <Image Name="basic_3.png" />
+            <Image Name="basic_4.png" />
+            <Image Name="basic_5.png" />
+            <Image Name="blue.png" />
+            <Image Name="blue1.png" />
+            <Image Name="bluegree.png" />
+            <Image Name="close.png" />
+            <Image Name="closeclick.png" />
+            <Image Name="closepressed.png" />
+            <Image Name="green.png" />
+            <Image Name="green1.png" />
+            <Image Name="gunshadow.png" />
+            <Image Name="orange.png" />
+            <Image Name="progressbar_blue.png" />
+            <Image Name="progressbar_green.png" />
+            <Image Name="progressbar_purple.png" />
+            <Image Name="progressbarbox_blue.png" />
+            <Image Name="progressbarbox_green.png" />
+            <Image Name="progressbarbox_purple.png" />
+            <Image Name="purple.png" />
+            <Image Name="purple1.png" />
+            <Image Name="s_closepressed.png" />
+            <Image Name="yellow.png" />
+            <Image Name="yellow2.png" />
+          </Folder>
+          <Folder Name="giftBag">
+            <Image Name="box.png" />
+            <Image Name="boxicon_1.png" />
+            <Image Name="boxicon_2.png" />
+            <Image Name="boxicon_3.png" />
+            <Image Name="close2.png" />
+            <Image Name="get.png" />
+            <Image Name="number.png" />
+            <Image Name="title1.png" />
+            <Image Name="title2.png" />
+            <Image Name="title3.png" />
+            <Image Name="X.png" />
+          </Folder>
+          <Folder Name="paylayer">
+            <Image Name="background.png" />
+            <Image Name="buy.png" />
+          </Folder>
+          <Folder Name="pet">
+            <Image Name="animationblank.png" />
+            <Image Name="get.png" />
+            <Image Name="light.png" />
+            <Image Name="pet0.png" />
+            <Image Name="pet1.png" />
+            <Image Name="pet2.png" />
+            <Image Name="petName0.png" />
+            <Image Name="petName1.png" />
+            <Image Name="petName2.png" />
+            <Image Name="set.png" />
+            <Image Name="shanghai1.png" />
+            <Image Name="shanghai2.png" />
+            <Image Name="star.png" />
+            <Image Name="starblank.png" />
+            <Image Name="sudu1.png" />
+            <Image Name="sudu2.png" />
+          </Folder>
+          <Folder Name="PromptLayer">
+            <Image Name="buycoin.png" />
+            <Image Name="buyfish.png" />
+            <Image Name="buymint.png" />
+            <Image Name="circle.png" />
+            <Image Name="wearweapon.png" />
+          </Folder>
+          <Folder Name="RoleUpDialog">
+            <Image Name="back.png" />
+            <Image Name="EXP.png" />
+            <Image Name="levelup.png" />
+            <Image Name="light.png" />
+            <Image Name="loadingbar1.png" />
+            <Image Name="loadingbar2.png" />
+            <Image Name="LV.png" />
+            <Image Name="number.png" />
+          </Folder>
+          <Folder Name="SelectLayer">
+            <Image Name="baseboard.png" />
+            <Image Name="baseboard_1.png" />
+            <Image Name="box.png" />
+            <Image Name="closebutton.png" />
+            <Image Name="description.png" />
+            <Image Name="enterbutton_1.png" />
+            <Image Name="enterbutton_1_press.png" />
+            <Image Name="groove.png" />
+            <Image Name="gun.png" />
+            <Image Name="start.png" />
+            <Image Name="topwords.png" />
+          </Folder>
+          <Folder Name="setingLayer">
+            <Image Name="background.png" />
+            <Image Name="music.png" />
+            <Image Name="musicoff.png" />
+            <Image Name="rate.png" />
+            <Image Name="setting.png" />
+            <Image Name="sound.png" />
+            <Image Name="soundoff.png" />
+          </Folder>
+          <Folder Name="share">
+            <Image Name="AD.png" />
+            <Image Name="fb.png" />
+            <Image Name="point.png" />
+            <Image Name="share.png" />
+            <Image Name="wechat.png" />
+            <Image Name="weibo.png" />
+          </Folder>
+          <Folder Name="SignLayer">
+            <Image Name="already.png" />
+            <Image Name="background.png" />
+            <Image Name="blank.png" />
+            <Image Name="can_sign.png" />
+            <Image Name="coin_0.png" />
+            <Image Name="cur.png" />
+            <Image Name="doubleday.png" />
+            <Image Name="doubledaylights.png" />
+            <Image Name="exp.png" />
+            <Image Name="fish_0.png" />
+            <Image Name="mint_0.png" />
+            <Image Name="signin.png" />
+            <Image Name="sure_sign.png" />
+            <Image Name="title.png" />
+          </Folder>
+          <Folder Name="store">
+            <Image Name="btton_shop_null.png" />
+            <Image Name="coin_0.png" />
+            <Image Name="coin_1.png" />
+            <Image Name="coin_2.png" />
+            <Image Name="coin_3.png" />
+            <Image Name="common_bg.png" />
+            <Image Name="fish_0.png" />
+            <Image Name="fish_1.png" />
+            <Image Name="fish_2.png" />
+            <Image Name="fish_3.png" />
+            <Image Name="fish_icon.png" />
+            <Image Name="fish_icon2.png" />
+            <Image Name="icon1.png" />
+            <Image Name="icon2.png" />
+            <Image Name="icon3.png" />
+            <Image Name="jinengline.png" />
+            <Image Name="layer0_bt1.png" />
+            <Image Name="layer0_bt2.png" />
+            <Image Name="layer1_bt1.png" />
+            <Image Name="layer1_bt2.png" />
+            <Image Name="layer2_bt1.png" />
+            <Image Name="layer2_bt2.png" />
+            <Image Name="layer3_bt1.png" />
+            <Image Name="layer3_bt2.png" />
+            <Image Name="line.png" />
+            <Image Name="mint_0.png" />
+            <Image Name="mint_1.png" />
+            <Image Name="mint_2.png" />
+            <Image Name="mint_3.png" />
+            <Image Name="name.png" />
+            <Image Name="priceblank.png" />
+            <Image Name="pricetag.png" />
+            <Image Name="shop.png" />
+          </Folder>
+          <Folder Name="waitDialog">
+            <Image Name="bg.png" />
+            <Image Name="btn_ok.png" />
+            <Image Name="fh.png" />
+            <Image Name="OK_en.png" />
+            <Image Name="warning.png" />
+          </Folder>
+          <Folder Name="WeaponLayer">
+            <Image Name="100.png" />
+            <Image Name="101.png" />
+            <Image Name="1111.png" />
+            <Image Name="addtionalbar1.png" />
+            <Image Name="addtionalbar2.png" />
+            <Image Name="background.png" />
+            <Image Name="baseborad.png" />
+            <Image Name="blank.png" />
+            <Image Name="blue.png" />
+            <Image Name="bullet.png" />
+            <Image Name="deblocking.png" />
+            <Image Name="desciptionblank.png" />
+            <Image Name="fitout.png" />
+            <Image Name="gray.png" />
+            <Image Name="green.png" />
+            <Image Name="gun.png" />
+            <Image Name="gunshadow.png" />
+            <Image Name="gunsketch.png" />
+            <Image Name="levelup.png" />
+            <Image Name="light.png" />
+            <Image Name="line.png" />
+            <Image Name="locked.png" />
+            <Image Name="purple.png" />
+            <Image Name="topbar.png" />
+            <Image Name="unlocked.png" />
+            <Image Name="weapon_btn.png" />
+          </Folder>
+          <Folder Name="WeaponSecondary">
+            <Image Name="background.png" />
+            <Image Name="levelup.png" />
+            <Image Name="locked.png" />
+            <Image Name="red.png" />
+            <Image Name="unlocked.png" />
+          </Folder>
+          <Image Name="back.png" />
+          <Image Name="btn_tm_hd.png" />
+          <Image Name="close.png" />
+          <Image Name="closeclick.png" />
+          <Image Name="lock.png" />
+          <Image Name="yuandian.png" />
+        </Folder>
+        <Folder Name="res.2">
+          <Folder Name="CatHome">
+            <Image Name="choice.png" />
+            <Image Name="choiced.png" />
+            <Image Name="lock.png" />
+          </Folder>
+          <Folder Name="General">
+            <Image Name="General_bg.png" />
+            <Image Name="General_close.png" />
+            <Image Name="General_gree_line.png" />
+            <Image Name="General_line.png" />
+          </Folder>
+          <Folder Name="pet">
+            <Image Name="animationblank.png" />
+            <Image Name="get.png" />
+            <Image Name="set.png" />
+            <Image Name="stay.png" />
+          </Folder>
+          <Folder Name="RankLayer">
+            <Image Name="rank_list_cursor.png" />
+            <Image Name="rank_list_line.png" />
+          </Folder>
+          <Folder Name="share">
+            <Image Name="share_bg.png" />
+            <Image Name="share_facebook.png" />
+            <Image Name="share_title.png" />
+            <Image Name="share_weibo.png" />
+            <Image Name="share_wexin.png" />
+          </Folder>
+          <Folder Name="SignLayer">
+            <Image Name="sign_btn.png" />
+            <Image Name="sign_double.png" />
+            <Image Name="sign_id1.png" />
+            <Image Name="sign_id10.png" />
+            <Image Name="sign_id11.png" />
+            <Image Name="sign_id3.png" />
+            <Image Name="sign_id4.png" />
+            <Image Name="sign_id5.png" />
+            <Image Name="sign_id7.png" />
+            <Image Name="sign_id8.png" />
+            <Image Name="sign_id9.png" />
+            <Image Name="sign_item_0.png" />
+            <Image Name="sign_item_1.png" />
+            <Image Name="sign_ok.png" />
+          </Folder>
+          <Folder Name="store">
+            <Image Name="btton_shop_buy.png" />
+            <Image Name="btton_shop_null.png" />
+            <Image Name="coin_0.png" />
+            <Image Name="coin_1.png" />
+            <Image Name="coin_2.png" />
+            <Image Name="coin_3.png" />
+            <Image Name="common_bg.png" />
+            <Image Name="fish_0.png" />
+            <Image Name="fish_1.png" />
+            <Image Name="fish_2.png" />
+            <Image Name="fish_3.png" />
+            <Image Name="fish_icon.png" />
+            <Image Name="fish_icon2.png" />
+            <Image Name="icon1.png" />
+            <Image Name="icon2.png" />
+            <Image Name="icon3.png" />
+            <Image Name="jinengline.png" />
+            <Image Name="layer0_bt1.png" />
+            <Image Name="layer0_bt2.png" />
+            <Image Name="layer1_bt1.png" />
+            <Image Name="layer1_bt2.png" />
+            <Image Name="layer2_bt1.png" />
+            <Image Name="layer2_bt2.png" />
+            <Image Name="layer3_bt1.png" />
+            <Image Name="layer3_bt2.png" />
+            <Image Name="line.png" />
+            <Image Name="mint_0.png" />
+            <Image Name="mint_1.png" />
+            <Image Name="mint_2.png" />
+            <Image Name="mint_3.png" />
+            <Image Name="priceblank.png" />
+            <Image Name="pricetag.png" />
+            <Image Name="shop.png" />
+            <Image Name="store_common_item_bg.png" />
+            <Image Name="store_price_bg.png" />
+          </Folder>
+          <Folder Name="WeaponLayer">
+            <Image Name="background.png" />
+            <Image Name="light.png" />
+            <Image Name="topbar.png" />
+            <Image Name="weapon_btn_arm.png" />
+            <Image Name="weapon_btn_levelup.png" />
+            <Image Name="weapon_btn_unarm.png" />
+            <Image Name="weapon_choose_bg1.png" />
+            <Image Name="weapon_choose_bg2.png" />
+            <Image Name="weapon_data_blue.png" />
+            <Image Name="weapon_data_green.png" />
+            <Image Name="weapon_data_yellow1.png" />
+            <Image Name="weapon_gun.png" />
+            <Image Name="weapon_gunshadow.png" />
+            <Image Name="weapon_item_bg1.png" />
+            <Image Name="weapon_item_bg2.png" />
+            <Image Name="weapon_lock.png" />
+            <Image Name="weapon_lock_bg.png" />
+            <Image Name="weapon_slider_bg.png" />
+            <Image Name="weapon_slider_curor.png" />
+          </Folder>
+          <Folder Name="WeaponSecondary">
+            <Image Name="weapon_upgrade_bg.png" />
+            <Image Name="weapon_upgrade_btn_levelup.png" />
+            <Image Name="weapon_upgrade_frame.png" />
+            <Image Name="weapon_upgrade_green_bar.png" />
+            <Image Name="weapon_upgrade_red_bar.png" />
+            <Image Name="weapon_upgrade_yellow_bar.png" />
+          </Folder>
+          <Image Name="back.png" />
+          <Image Name="lock.png" />
+        </Folder>
+        <Folder Name="roleUpDialog">
+          <Image Name="EXP_.png" />
+          <Image Name="levelup.png" />
+          <Image Name="LV.png" />
+          <Image Name="number.png" />
+        </Folder>
+        <Folder Name="share">
+          <Image Name="share_bg.png" />
+          <Image Name="share_facebook.png" />
+          <Image Name="share_title.png" />
+          <Image Name="share_weibo.png" />
+          <Image Name="share_wexin.png" />
+        </Folder>
+        <Folder Name="SignLayer">
+          <Image Name="background.png" />
+          <Image Name="can_sign.png" />
+          <Image Name="coin_0.png" />
+          <Image Name="cur.png" />
+          <Image Name="doubleday.png" />
+          <Image Name="doubledaylights.png" />
+          <Image Name="exp.png" />
+          <Image Name="fish_0.png" />
+          <Image Name="mint_0.png" />
+          <Image Name="sign_btn.png" />
+          <Image Name="sign_item_0.png" />
+          <Image Name="sign_item_1.png" />
+          <Image Name="sure_sign.png" />
+          <Image Name="title.png" />
+        </Folder>
+        <Folder Name="starmap">
+          <Project Name="fengli_map1.csd" Type="Scene" />
+          <Project Name="fengli_map2.csd" Type="Scene" />
+          <Project Name="haiyang_map1.csd" Type="Scene" />
+          <Project Name="haiyang_map2.csd" Type="Scene" />
+          <Project Name="juedi_map1.csd" Type="Scene" />
+          <Project Name="juedi_map2.csd" Type="Scene" />
+          <Project Name="niunai_map1.csd" Type="Scene" />
+          <Project Name="niunai_map2.csd" Type="Scene" />
+          <Project Name="wansheng_map1.csd" Type="Scene" />
+          <Project Name="wansheng_map2.csd" Type="Scene" />
+          <Project Name="zhangyu_map1.csd" Type="Scene" />
+          <Project Name="zhangyu_map2.csd" Type="Scene" />
+        </Folder>
+        <Folder Name="waitDialog">
+          <Image Name="bg.png" />
+          <Image Name="OK_cn.png" />
+          <Image Name="OK_en.png" />
+          <Image Name="warning.png" />
+        </Folder>
+        <Folder Name="WeaponSecondary">
+          <Image Name="weapon_upgrade_bg.png" />
+          <Image Name="weapon_upgrade_btn_levelup.png" />
+          <Image Name="weapon_upgrade_frame.png" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

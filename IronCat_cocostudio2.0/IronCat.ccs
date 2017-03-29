@@ -1,0 +1,475 @@
+<Solution>
+  <PropertyGroup Name="IronCat" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="csb">
+          <Project Name="Fragment_Invite.csd" Type="Node" />
+          <Project Name="Fragment_Invite1.csd" Type="Layer" />
+          <Project Name="Fragment_Rank.csd" Type="Layer" />
+          <Project Name="GameFight_ExchangeSkill.csd" Type="Layer" />
+          <Project Name="GameFightLayer.csd" Type="Scene" />
+          <Project Name="GameLoseLayer.csd" Type="Layer" />
+          <Project Name="GamePauseLayer_normal.csd" Type="Layer" />
+          <Project Name="GameSceneBG_1.csd" Type="Layer" />
+          <Project Name="GameSceneBG_2.csd" Type="Layer" />
+          <Project Name="GameSceneBG_3.csd" Type="Layer" />
+          <Project Name="GameSceneBG_4.csd" Type="Layer" />
+          <Project Name="GameSceneBG_5.csd" Type="Layer" />
+          <Project Name="GameTaskLayer_gift.csd" Type="Layer" />
+          <Project Name="GameTaskLayer_normal.csd" Type="Layer" />
+          <Project Name="GameWinLayer.csd" Type="Layer" />
+          <Project Name="GameWinLayer_gift.csd" Type="Layer" />
+          <Project Name="Node_GiftItem.csd" Type="Node" />
+          <Project Name="Node_hpBar.csd" Type="Node" />
+          <Project Name="Node_Normal_get.csd" Type="Node" />
+          <Project Name="Node_TaskItem_ok.csd" Type="Node" />
+          <Project Name="PaymentTypeLayer.csd" Type="Layer" />
+          <Project Name="PhysicalPowerAlertLayer.csd" Type="Layer" />
+          <Project Name="rankitem_0.csd" Type="Node" />
+          <Project Name="rankitem_1.csd" Type="Node" />
+          <Project Name="RankLayer.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="csb.2">
+          <Project Name="GameTaskLayer_gift.csd" Type="Layer" />
+          <Project Name="GameTaskLayer_normal.csd" Type="Layer" />
+          <Project Name="GameWinLayer.csd" Type="Layer" />
+          <Project Name="GameWinLayer_gift.csd" Type="Layer" />
+          <Project Name="Node_GiftItem.csd" Type="Node" />
+          <Project Name="Node_Normal_get.csd" Type="Node" />
+          <Project Name="Node_TaskItem_ok.csd" Type="Node" />
+          <Project Name="rankitem.csd" Type="Node" />
+          <Project Name="RankLayer.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="res">
+          <Folder Name="CatHomeLayer">
+            <Image Name="back.png" />
+            <Image Name="background.png" />
+            <Image Name="baseborad.png" />
+            <Image Name="catbox.png" />
+            <Image Name="catbox_small.png" />
+            <Image Name="catdescription.png" />
+            <Image Name="catdescription_1.png" />
+            <Image Name="catsketch.png" />
+            <Image Name="catsketch_small.png" />
+            <Image Name="choose.png" />
+            <Image Name="choose_s.png" />
+            <Image Name="desciption_1.png" />
+            <Image Name="desciptionblank.png" />
+            <Image Name="description.png" />
+            <Image Name="exp.png" />
+            <Image Name="HP.png" />
+            <Image Name="left.png" />
+            <Image Name="right.png" />
+            <Image Name="s_back.png" />
+            <Image Name="sketch.png" />
+          </Folder>
+          <Folder Name="GameOverLayer">
+            <PlistImageFolder Image="gameoverlayer_sprites.png" PListFile="gameoverlayer_sprites.plist" Name=".gameoverlayer_sprites_PList.Dir">
+              <PlistImageFile Name="again.png" Key="again.png" />
+              <PlistImageFile Name="f_share_bt.png" Key="f_share_bt.png" />
+              <PlistImageFile Name="free_continue.png" Key="free_continue.png" />
+              <PlistImageFile Name="gameover_background.png" Key="gameover_background.png" />
+              <PlistImageFile Name="next.png" Key="next.png" />
+              <PlistImageFile Name="over_claw.png" Key="over_claw.png" />
+              <PlistImageFile Name="over_coin_0.png" Key="over_coin_0.png" />
+              <PlistImageFile Name="over_fish_0.png" Key="over_fish_0.png" />
+              <PlistImageFile Name="over_mint_0.png" Key="over_mint_0.png" />
+              <PlistImageFile Name="star_shadow.png" Key="star_shadow.png" />
+              <PlistImageFile Name="win_light.png" Key="win_light.png" />
+            </PlistImageFolder>
+            <Image Name="again.png" />
+            <Image Name="again_press.png" />
+            <Image Name="background.png" />
+            <Image Name="enter.png" />
+            <ExportJsonFile Name="failcat_Animation.ExportJson" />
+            <Image Name="next.png" />
+            <Image Name="next_press.png" />
+            <Image Name="over_claw.png" />
+            <Image Name="over_coin_0.png" />
+            <Image Name="over_fish_0.png" />
+            <Image Name="over_mint_0.png" />
+            <Image Name="pass.png" />
+            <Image Name="ranking.png" />
+            <Image Name="ranking_press.png" />
+            <Image Name="star.png" />
+            <Image Name="star_shadow.png" />
+            <Image Name="star1.png" />
+            <Image Name="start.png" />
+            <Image Name="win_bg.png" />
+            <Image Name="win_light.png" />
+          </Folder>
+          <Folder Name="GamePauseLayer">
+            <PlistImageFolder Image="gamepause_sprites.png" PListFile="gamepause_sprites.plist" Name=".gamepause_sprites_PList.Dir">
+              <PlistImageFile Name="pause_bg.png" Key="pause_bg.png" />
+              <PlistImageFile Name="pause_continue.png" Key="pause_continue.png" />
+              <PlistImageFile Name="pause_home.png" Key="pause_home.png" />
+            </PlistImageFolder>
+            <Image Name="pause_bg.png" />
+            <Image Name="pause_continue.png" />
+            <Image Name="pause_home.png" />
+          </Folder>
+          <Folder Name="gamescenebg">
+            <Folder Name="gamebg_1">
+              <Image Name="gamebg_1.png" />
+              <Image Name="gamebg_1_birds.png" />
+              <Image Name="gamebg_1_cloud_1.png" />
+              <Image Name="gamebg_1_cloud_2.png" />
+              <Image Name="gamebg_1_windmill_1.png" />
+              <Image Name="gamebg_1_windmill_2.png" />
+            </Folder>
+            <Folder Name="gamebg_2">
+              <Image Name="gamebg_2.png" />
+              <Image Name="gamebg_2_boat.png" />
+              <Image Name="gamebg_2_cloud_1.png" />
+              <Image Name="gamebg_2_cloud_2.png" />
+              <Image Name="gamebg_2_cloud_3.png" />
+              <Image Name="gamebg_2_whale.png" />
+            </Folder>
+            <Folder Name="gamebg_3">
+              <Image Name="gamebg_3.png" />
+              <Image Name="gamebg_3_cloud_1.png" />
+              <Image Name="gamebg_3_cloud_2.png" />
+              <Image Name="gamebg_3_cloud_3.png" />
+              <Image Name="gamebg_3_cloud_4.png" />
+              <Image Name="gamebg_3_dandelion_1.png" />
+              <Image Name="gamebg_3_dandelion_2.png" />
+              <Image Name="gamebg_3_dandelion_3.png" />
+            </Folder>
+            <Folder Name="gamebg_4">
+              <Image Name="gamebg_4.png" />
+              <Image Name="gamebg_4_birds_1.png" />
+              <Image Name="gamebg_4_birds_2.png" />
+              <Image Name="gamebg_4_cloud_1.png" />
+              <Image Name="gamebg_4_cloud_2.png" />
+              <Image Name="gamebg_4_cloud_3.png" />
+              <Image Name="gamebg_4_ghost_1.png" />
+              <Image Name="gamebg_4_ghost_2.png" />
+              <Image Name="gamebg_4_ghost_3.png" />
+            </Folder>
+            <Folder Name="gamebg_5">
+              <Image Name="gamebg_5.png" />
+              <Image Name="gamebg_5_cloud_1.png" />
+              <Image Name="gamebg_5_cloud_2.png" />
+              <Image Name="gamebg_5_cloud_3.png" />
+              <Image Name="gamebg_5_stars.png" />
+            </Folder>
+          </Folder>
+          <Folder Name="GameTaskLayer">
+            <PlistImageFolder Image="gametask_sprites.png" PListFile="gametask_sprites.plist" Name=".gametask_sprites_PList.Dir">
+              <PlistImageFile Name="gametask_bg.png" Key="gametask_bg.png" />
+              <PlistImageFile Name="gametask_btn_start.png" Key="gametask_btn_start.png" />
+              <PlistImageFile Name="gametask_circleblank.png" Key="gametask_circleblank.png" />
+              <PlistImageFile Name="gametask_extra_mission.png" Key="gametask_extra_mission.png" />
+              <PlistImageFile Name="gametask_gift.png" Key="gametask_gift.png" />
+              <PlistImageFile Name="gametask_item_complete.png" Key="gametask_item_complete.png" />
+              <PlistImageFile Name="gametask_level_information.png" Key="gametask_level_information.png" />
+              <PlistImageFile Name="gametask_wordsblank.png" Key="gametask_wordsblank.png" />
+              <PlistImageFile Name="icon_dead.png" Key="icon_dead.png" />
+            </PlistImageFolder>
+            <Image Name="gametask_bg.png" />
+            <Image Name="gametask_btn_start.png" />
+            <Image Name="gametask_circleblank.png" />
+            <Image Name="gametask_extra_mission.png" />
+            <Image Name="gametask_gift.png" />
+            <Image Name="gametask_item_complete.png" />
+            <Image Name="gametask_level_information.png" />
+            <Image Name="gametask_wordsblank.png" />
+            <Image Name="icon_dead.png" />
+          </Folder>
+          <Folder Name="GamingLayer">
+            <PlistImageFolder Image="gaming_sprites.png" PListFile="gaming_sprites.plist" Name=".gaming_sprites_PList.Dir">
+              <PlistImageFile Name="bottombar.png" Key="bottombar.png" />
+              <PlistImageFile Name="bullet.png" Key="bullet.png" />
+              <PlistImageFile Name="bullet_number_circle_index_1.png" Key="bullet_number_circle_index_1.png" />
+              <PlistImageFile Name="bullet_number_circle_index_2.png" Key="bullet_number_circle_index_2.png" />
+              <PlistImageFile Name="bullet_number_circle_index_3.png" Key="bullet_number_circle_index_3.png" />
+              <PlistImageFile Name="bullet_number_circle_index_4.png" Key="bullet_number_circle_index_4.png" />
+              <PlistImageFile Name="bulletblank.png" Key="bulletblank.png" />
+              <PlistImageFile Name="game_progress_bar.png" Key="game_progress_bar.png" />
+              <PlistImageFile Name="game_progress_bar_red.png" Key="game_progress_bar_red.png" />
+              <PlistImageFile Name="game_progress_icon_monster.png" Key="game_progress_icon_monster.png" />
+              <PlistImageFile Name="game_progress_icon_time.png" Key="game_progress_icon_time.png" />
+              <PlistImageFile Name="game_skill_number_icon.png" Key="game_skill_number_icon.png" />
+              <PlistImageFile Name="gaming_stand_frame.png" Key="gaming_stand_frame.png" />
+              <PlistImageFile Name="gaming_stand_progress.png" Key="gaming_stand_progress.png" />
+              <PlistImageFile Name="gaming_stand_top.png" Key="gaming_stand_top.png" />
+              <PlistImageFile Name="gaming_star.png" Key="gaming_star.png" />
+              <PlistImageFile Name="gaming_starfail.png" Key="gaming_starfail.png" />
+              <PlistImageFile Name="gunsicon.png" Key="gunsicon.png" />
+              <PlistImageFile Name="hpBar.png" Key="hpBar.png" />
+              <PlistImageFile Name="hpBarBg.png" Key="hpBarBg.png" />
+              <PlistImageFile Name="hpBarBg_1.png" Key="hpBarBg_1.png" />
+              <PlistImageFile Name="hpBg.png" Key="hpBg.png" />
+              <PlistImageFile Name="item_1.png" Key="item_1.png" />
+              <PlistImageFile Name="item_2.png" Key="item_2.png" />
+              <PlistImageFile Name="item_3.png" Key="item_3.png" />
+              <PlistImageFile Name="itemContainer.png" Key="itemContainer.png" />
+              <PlistImageFile Name="pase.png" Key="pase.png" />
+              <PlistImageFile Name="progressbar_bg1.png" Key="progressbar_bg1.png" />
+            </PlistImageFolder>
+            <Fnt Name="icroncatFont.fnt" />
+          </Folder>
+          <Folder Name="General">
+            <PlistImageFolder Image="general_sprites.png" PListFile="general_sprites.plist" Name=".general_sprites_PList.Dir">
+              <PlistImageFile Name="closepressed.png" Key="closepressed.png" />
+              <PlistImageFile Name="star_grey1.png" Key="star_grey1.png" />
+              <PlistImageFile Name="star_grey2.png" Key="star_grey2.png" />
+              <PlistImageFile Name="star_grey3.png" Key="star_grey3.png" />
+              <PlistImageFile Name="star_yellow1.png" Key="star_yellow1.png" />
+              <PlistImageFile Name="star_yellow2.png" Key="star_yellow2.png" />
+              <PlistImageFile Name="star_yellow3.png" Key="star_yellow3.png" />
+            </PlistImageFolder>
+            <Image Name="closepressed.png" />
+            <Image Name="gunshadow.png" />
+            <Image Name="progressbar_blue.png" />
+            <Image Name="progressbar_green.png" />
+            <Image Name="progressbar_purple.png" />
+            <Image Name="progressbarbox_blue.png" />
+            <Image Name="progressbarbox_green.png" />
+            <Image Name="progressbarbox_purple.png" />
+            <Image Name="s_closepressed.png" />
+            <Image Name="star_grey1.png" />
+            <Image Name="star_grey2.png" />
+            <Image Name="star_grey3.png" />
+            <Image Name="star_yellow1.png" />
+            <Image Name="star_yellow2.png" />
+            <Image Name="star_yellow3.png" />
+          </Folder>
+          <Folder Name="MainLayer">
+            <Image Name="bossLabel.png" />
+            <Image Name="cathome.png" />
+            <Image Name="coinbar.png" />
+            <Image Name="fishbar.png" />
+            <Image Name="levelicon.png" />
+            <Image Name="line.png" />
+            <Image Name="lockedlevel.png" />
+            <Image Name="lockTollgate.png" />
+            <Image Name="mainBg.png" />
+            <Image Name="mintbar.png" />
+            <Image Name="shop.png" />
+            <Image Name="sign in.png" />
+            <Image Name="star1.png" />
+            <Image Name="star2.png" />
+            <Image Name="start.png" />
+            <Image Name="tagTollgate.png" />
+            <Image Name="tollagetOff .png" />
+            <Image Name="tollagetOn.png" />
+            <Image Name="tollgateSel .png" />
+            <Image Name="topbar.png" />
+            <Image Name="weapon.png" />
+          </Folder>
+          <Folder Name="PaymentType">
+            <Image Name="payment_7_eleven.png" />
+            <Image Name="payment_Affin_Bank.png" />
+            <Image Name="payment_Amonline.png" />
+            <Image Name="payment_bg.png" />
+            <Image Name="payment_cherrycredits.png" />
+            <Image Name="payment_CIMB_clicks.png" />
+            <Image Name="payment_dragonpay.png" />
+            <Image Name="payment_epay.png" />
+            <Image Name="payment_esapay.png" />
+            <Image Name="payment_GASH.png" />
+            <Image Name="payment_google.png" />
+            <Image Name="payment_Hong_Leong.png" />
+            <Image Name="payment_maybank2u.png" />
+            <Image Name="payment_MOLpoints.png" />
+            <Image Name="payment_molwallet.png" />
+            <Image Name="payment_myclear_FPX.png" />
+            <Image Name="payment_Nganluong.png" />
+            <Image Name="payment_RHB_Now.png" />
+            <Image Name="payment_sam_sing_post.png" />
+            <Image Name="payment_web_cash.png" />
+          </Folder>
+          <Folder Name="PhysicalPowerAlertLayer">
+            <PlistImageFolder Image="ppalert_sprites.png" PListFile="ppalert_sprites.plist" Name=".ppalert_sprites_PList.Dir">
+              <PlistImageFile Name="ppalert_back.png" Key="ppalert_back.png" />
+              <PlistImageFile Name="ppalert_bg.png" Key="ppalert_bg.png" />
+              <PlistImageFile Name="ppalert_ppbg.png" Key="ppalert_ppbg.png" />
+              <PlistImageFile Name="ppalert_quit.png" Key="ppalert_quit.png" />
+            </PlistImageFolder>
+          </Folder>
+          <Folder Name="RankLayer">
+            <Image Name="rank_bg.png" />
+            <Image Name="rank_btn_connect.png" />
+            <Image Name="rank_btn_invite.png" />
+            <Image Name="rank_invite_item_bg.png" />
+            <Image Name="rank_invite_item_bg_1.png" />
+            <Image Name="rank_invite_item_bg_mine.png" />
+            <Image Name="rank_invite_item_bottom.png" />
+            <Image Name="rank_label_1.png" />
+            <Image Name="rank_label_2.png" />
+            <Image Name="rank_label_3.png" />
+            <Image Name="rank_label_friends_down.png" />
+            <Image Name="rank_label_friends_up.png" />
+            <Image Name="rank_label_rank_down.png" />
+            <Image Name="rank_label_rank_up.png" />
+            <Image Name="rank_title_invite.png" />
+            <Image Name="rank_title_rank.png" />
+            <Image Name="rank_user_icon_bg.png" />
+            <Image Name="rank_user_icon_bg_mine.png" />
+            <Image Name="rank_user_icon_bg_topuser.png" />
+            <Image Name="rank_user_icon_default.png" />
+          </Folder>
+          <Folder Name="SelectLayer">
+            <Image Name="baseboard.png" />
+            <Image Name="baseboard_1.png" />
+            <Image Name="box.png" />
+            <Image Name="closebutton.png" />
+            <Image Name="description.png" />
+            <Image Name="enterbutton_1.png" />
+            <Image Name="enterbutton_1_press.png" />
+            <Image Name="groove.png" />
+            <Image Name="gun.png" />
+            <Image Name="start.png" />
+            <Image Name="topwords.png" />
+          </Folder>
+          <Folder Name="SignLayer">
+            <Image Name="backway.png" />
+            <Image Name="baseborad.png" />
+            <Image Name="cat.png" />
+            <Image Name="Chests1.png" />
+            <Image Name="Chests2.png" />
+            <Image Name="darkbackground.png" />
+            <Image Name="s_signin.png" />
+            <Image Name="sign1.png" />
+            <Image Name="sign2.png" />
+            <Image Name="signin.png" />
+            <Image Name="title.png" />
+            <Image Name="words.png" />
+          </Folder>
+          <Folder Name="Skillexchange">
+            <PlistImageFolder Image="skillexchange_sprites.png" PListFile="skillexchange_sprites.plist" Name=".skillexchange_sprites_PList.Dir">
+              <PlistImageFile Name="skillexchange_bg.png" Key="skillexchange_bg.png" />
+              <PlistImageFile Name="skillexchange_btn_add.png" Key="skillexchange_btn_add.png" />
+              <PlistImageFile Name="skillexchange_btn_exhange.png" Key="skillexchange_btn_exhange.png" />
+              <PlistImageFile Name="skillexchange_checkbox_bg.png" Key="skillexchange_checkbox_bg.png" />
+              <PlistImageFile Name="skillexchange_checkbox_label.png" Key="skillexchange_checkbox_label.png" />
+              <PlistImageFile Name="skillexchange_fish_number_bg.png" Key="skillexchange_fish_number_bg.png" />
+              <PlistImageFile Name="skillexchange_icon_fish.png" Key="skillexchange_icon_fish.png" />
+              <PlistImageFile Name="skillexchange_icon_skill_1.png" Key="skillexchange_icon_skill_1.png" />
+              <PlistImageFile Name="skillexchange_icon_skill_2.png" Key="skillexchange_icon_skill_2.png" />
+              <PlistImageFile Name="skillexchange_icon_skill_3.png" Key="skillexchange_icon_skill_3.png" />
+              <PlistImageFile Name="skillexchange_icon_skill_frame.png" Key="skillexchange_icon_skill_frame.png" />
+              <PlistImageFile Name="skillexchange_label_skill_1.png" Key="skillexchange_label_skill_1.png" />
+              <PlistImageFile Name="skillexchange_label_skill_2.png" Key="skillexchange_label_skill_2.png" />
+              <PlistImageFile Name="skillexchange_label_skill_3.png" Key="skillexchange_label_skill_3.png" />
+              <PlistImageFile Name="skillexchange_skill_number_bg.png" Key="skillexchange_skill_number_bg.png" />
+            </PlistImageFolder>
+            <Image Name="skillexchange_bg.png" />
+            <Image Name="skillexchange_btn_add.png" />
+            <Image Name="skillexchange_btn_exhange.png" />
+            <Image Name="skillexchange_fish_number_bg.png" />
+            <Image Name="skillexchange_icon_fish.png" />
+            <Image Name="skillexchange_icon_skill_1.png" />
+            <Image Name="skillexchange_icon_skill_2.png" />
+            <Image Name="skillexchange_icon_skill_3.png" />
+            <Image Name="skillexchange_icon_skill_frame.png" />
+            <Image Name="skillexchange_label_equal.png" />
+            <Image Name="skillexchange_label_skill_1.png" />
+            <Image Name="skillexchange_label_skill_2.png" />
+            <Image Name="skillexchange_label_skill_3.png" />
+            <Image Name="skillexchange_label1.png" />
+            <Image Name="skillexchange_skill_circle.png" />
+            <Image Name="skillexchange_skill_number_bg.png" />
+          </Folder>
+          <Folder Name="WeaponLayer">
+            <Image Name="100.png" />
+            <Image Name="1000.png" />
+            <Image Name="101.png" />
+            <Image Name="1111.png" />
+            <Image Name="128_356.png" />
+            <Image Name="1280.png" />
+            <Image Name="baseborad.png" />
+            <Image Name="basebox.png" />
+            <Image Name="blank.png" />
+            <Image Name="blank1.png" />
+            <Image Name="bullet.png" />
+            <Image Name="card.png" />
+            <Image Name="closepressed.png" />
+            <Image Name="desciptionblank.png" />
+            <Image Name="gun.png" />
+            <Image Name="gunshadow.png" />
+            <Image Name="gunsketch.png" />
+            <Image Name="levelup.png" />
+            <Image Name="levelup_s.png" />
+            <Image Name="light.png" />
+            <Image Name="locked.png" />
+            <Image Name="questionmark.png" />
+            <Image Name="questionmark_1.png" />
+            <Image Name="smaple.png" />
+            <Image Name="unlockedbutton.png" />
+            <Image Name="unlockedbutton_pressed.png" />
+            <Image Name="weaponbox.png" />
+            <Fnt Name="weaponChineseFont.fnt" />
+            <Image Name="window.png" />
+            <Fnt Name="wpEnglishFont.fnt" />
+          </Folder>
+          <Folder Name="WeaponSecondary">
+            <Image Name="background.png" />
+            <Image Name="levelup.png" />
+            <Image Name="levelup_press.png" />
+            <Image Name="locked.png" />
+            <Image Name="red.png" />
+            <Image Name="unlocked.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="res.2">
+          <Folder Name="GameTaskLayer">
+            <Image Name="gametask_award_item_rectbg.png" />
+            <Image Name="gametask_award_item_roundbg.png" />
+            <Image Name="gametask_award_item_smallrectbg.png" />
+            <Image Name="gametask_award_label_exp.png" />
+            <Image Name="gametask_awarding.png" />
+            <Image Name="gametask_btn_start.png" />
+            <Image Name="gametask_extra_mission_1.png" />
+            <Image Name="gametask_extra_mission_2.png" />
+            <Image Name="gametask_item_complete.png" />
+            <Image Name="gametask_label1.png" />
+            <Image Name="gametask_label2.png" />
+            <Image Name="gametask_level_information_1.png" />
+            <Image Name="gametask_level_information_2.png" />
+            <Image Name="gametask_line.png" />
+            <Image Name="gametask_monster_container_bg.png" />
+            <Image Name="gametask_panel.png" />
+          </Folder>
+          <Folder Name="gameWinLayer">
+            <Image Name="gamewin_bg.png" />
+            <Image Name="gamewin_gift_item_bg.png" />
+            <Image Name="gamewin_next.png" />
+            <Image Name="gamewin_panel_bg.png" />
+            <Image Name="gamewin_retry.png" />
+            <Image Name="gamewin_star_gray.png" />
+            <Image Name="gamewin_star_sp.png" />
+            <Image Name="gamewin_star_yellow.png" />
+          </Folder>
+          <Folder Name="General">
+            <Image Name="General_bg.png" />
+            <Image Name="General_close.png" />
+            <Image Name="General_gree_line.png" />
+          </Folder>
+          <Folder Name="RankLayer">
+            <Image Name="rank_btn_connect.png" />
+            <Image Name="rank_btn_invite.png" />
+            <Image Name="rank_label_1.png" />
+            <Image Name="rank_line.png" />
+            <Image Name="rank_list_cursor.png" />
+            <Image Name="rank_list_item_bg.png" />
+            <Image Name="rank_list_line.png" />
+            <Image Name="rank_list_usericon_bg.png" />
+            <Image Name="rank_title_rank.png" />
+          </Folder>
+        </Folder>
+        <Folder Name="test">
+          <Image Name="bloodframe_1.png" />
+          <Image Name="bloodframe_2.png" />
+          <Image Name="star.png" />
+          <Image Name="top.png" />
+          <Image Name="xueliangman.png" />
+          <Image Name="xueliangshao.png" />
+          <Image Name="xueliangshao2.png" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
